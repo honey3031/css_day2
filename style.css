@@ -1,0 +1,65 @@
+/* univesal selector */
+*{
+    background-color:wheat;
+    color:antiquewhite;
+}
+/* element selector */
+p{
+    background-color:orange;
+    color: blanchedalmond;
+}
+h1{
+    color: rgb(87, 145, 196);
+    background-color: brown;
+}
+
+h3{
+    color: chartreuse;
+    background-color: skyblue;
+}
+
+h5{
+    background-color: chocolate;
+    color: aquamarine;
+}
+
+h6{
+    background-color: coral;
+    color: black;
+}
+
+
+/* group selector */
+p,h2{
+    background-color: darkslategray;
+    color: black;
+}
+
+/* class selector */
+
+.heading{
+    color: blueviolet;
+    background-color: burlywood;
+}
+
+/* id selector */
+#unique{
+    color: darkmagenta;
+    background-color: blanchedalmond;
+}
+
+/* element + class selector */
+h2.heading{
+    color: blue;
+    background-color: lightgreen;
+}
+.one.two{
+    color: aquamarine;
+    background-color: indigo;
+}
+
+/* element + Id */
+pre#unique{
+    color:darkred;
+    background-color:darkgoldenrod;
+}
